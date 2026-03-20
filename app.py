@@ -1,7 +1,7 @@
 import streamlit as st
 from pypdf import PdfReader
 
-st.set_page_config(page_title="Bulk Resume Matcher", layout="centered")
+st.set_page_config(page_title="Resume Screener", layout="centered")
 
 st.title("Resume Screener")
 
