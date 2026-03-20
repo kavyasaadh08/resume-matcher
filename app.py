@@ -3,7 +3,7 @@ from pypdf import PdfReader
 
 st.set_page_config(page_title="Bulk Resume Matcher", layout="centered")
 
-st.title("📄 Bulk Resume vs JD Matcher")
+st.title("Resume Screener")
 
 # Upload multiple resumes
 uploaded_files = st.file_uploader(
